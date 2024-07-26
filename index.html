@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chinese Paragraph Reader</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src *; script-src *;"
+    />
+    <title>Read Aloud</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>中英文讀稿機</h1>
-        <textarea id="textInput" rows="8" cols="50">
+      <h1>中英文讀稿機</h1>
+      <textarea id="textInput" rows="8" cols="50">
         Yesterday all my troubles seemed so far away.
         Now it looks as though they're here to stay.
         Oh, I believe in yesterday.
@@ -17,16 +21,17 @@
         就連說過了再見 也看不見你有些哀怨
         給我的一切 你不過是在敷衍
         你笑得越無邪 我就會愛你愛得更狂野
-        </textarea>
-        <button id="mandarinButton">普通話</button>
-        <button id="guoyuButton">國語</button>
-        <button id="cantoneseButton">粵語</button>
-        <button id="northeasternButton">東北話</button>
-        <button id="singaporeenglishButton">新加坡英語</button>
-        <button id="usenglishButton">美式英語</button>
-        <button id="ukenglishButton">英式英語</button>
-        <button id="indiaenglishButton">印度英語</button>
+        </textarea
+      >
+      <button id="mandarinButton">普通話</button>
+      <button id="guoyuButton">國語</button>
+      <button id="cantoneseButton">粵語</button>
+      <button id="northeasternButton">東北話</button>
+      <button id="singaporeenglishButton">新加坡英語</button>
+      <button id="usenglishButton">美式英語</button>
+      <button id="ukenglishButton">英式英語</button>
+      <button id="indiaenglishButton">印度英語</button>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
